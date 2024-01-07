@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>TrainPhotoApp</title>
+    </head>
+    <body>
+        <h2>TrainPhotoApp</h2>
+        <main>
+            <h3>Train Photos</h3>
+            <!-- TODO: Add link to cat photos-->
+            <p>Click here to view more <a 
+            href="https://www.gettyimages.in/photos/indian-railways" target="_blank">train photos</a>
+            </p>
+            <a href="https://www.gettyimages.in/photos/indian-railways" target="_blank"><img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/06/14/979454-indian-railways-ians-trains-resumed.jpg" alt="Train Waiting at Howrah Jn Station">
+            </a>
+            <h3>Train Lists</h3>
+            <p>Before a Train Journey</p>
+            <div class="Lists">
+                <ul>
+                    <li>Check your ticket</li>
+                    <li>Board Safely</li>
+                    <li>Carefully stow your luggage</li>
+                </ul>
+                <p>After a Train Journey</p>
+                <ol>
+                    <li>Do not rush out before Train has stopped</li>
+                    <li>Step down in the platform carefully</li>
+                </ol>
+            </div>
+            <p>Take a poll</p>
+            <form action="/submit-Train-photos">
+                <label for="indoor"><input id="indoor" type="radio" name="Rajdhani-Shatabdi"> Rajdhani</label>
+                <label for="outdoor"><input id="outdoor" type="radio" name="Rajdhani-Shatabdi"> Shatabdi</label><br>
+                <input type="text" placeholder="Train Photo URL" required>
+                <button type="submit">Submit</button><br>
+            </form> 
+
+            <p>Favourite Engines</p>
+
+            <form action="/submit-Engine-choices">
+
+                <label for="WAP7"><input id="WAP7" type="checkbox" name="colour">WAP7</label>
+                <label for="WAP5"><input id="WAP5" type="checkbox" name="colour">WAP5</label>
+                <label for="WAP3"><input id="WAP3" type="checkbox" name="colour">WAP3</label>
+
+                <button type="submit">Submit</button>
+
+            </form>
+            
+        </main>
+
+        <footer>
+            <p>No Copyrights - <a href="https://ShrotriyaBanerjee.github.io" target="_blank">Shrotriya Banerjee</a></p>
+        </footer>
+    </body>
+</html>
